@@ -20,7 +20,7 @@ public class CurrencyExchange {
 
     private BigDecimal conversionMultiple;
 
-    private String enviroment;
+    private String environment;
 
     public CurrencyExchange() {
     }
@@ -37,7 +37,7 @@ public class CurrencyExchange {
         this.from = from;
         this.to = to;
         this.conversionMultiple = conversionMultiple;
-        this.enviroment = enviroment;
+        this.environment = enviroment;
     }
 
     public Long getId() {
@@ -73,10 +73,10 @@ public class CurrencyExchange {
     }
 
     public String getEnviroment() {
-        return enviroment;
+        return environment;
     }
 
     public void setEnviroment(String enviroment) {
-        this.enviroment = enviroment;
+        this.environment = enviroment;
     }
 }
